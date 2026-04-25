@@ -7,6 +7,6 @@ A reusable MATLAB workflow that computes the tangent-line approxiamtion for any 
 
 For a differentiable function, $f(x)$, at a point $x=a$, the first-order Taylor approximation is: 
 
-$$L(X) = f(a)+f'(a)(x-a)$$
+$$L(x) = f(a)+f'(a)(x-a)$$
 
 Which coincides with the tangent line to the graph of $f$ at the point $(a,f(a))$

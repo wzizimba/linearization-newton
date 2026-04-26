@@ -11,10 +11,13 @@ a=0;
 
 L=lin(f_s,a);
 
+%                                 Approximations
+%  (0.95)^(1/3) = (1-0.05)^(1/3); x=0.05      
 x1=0.05;
 appr1=double(subs(L,symvar(L),x1));
 exct1=(0.95)^(1/3);
 
+% (1.1)^(1/3) = (1-(-0.1))^(!/3); x=-0.1
 x2=-0.1;
 appr2=double(subs(L,symvar(L),x2));
 exct2=(1.1)^(1/3);

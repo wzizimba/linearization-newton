@@ -2,7 +2,7 @@
 %              f(x) = (1-x)^(1/3)
 % at x=0
 
-func_dir = fiileparts(mfilename('fullpath')); 
+func_dir = fileparts(mfilename('fullpath')); 
 addpath(fullfile(func_dir,'..','src'));   % code function, lin.m, call automation
 
 syms x

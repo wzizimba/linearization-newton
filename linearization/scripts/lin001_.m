@@ -14,5 +14,5 @@ L=lin(f_s,a);
 
 fprintf('f(x) = (1-x)^(1/3)');
 fprintf('x = %d\n',a);
-fprintf(L(x) = ');
+fprintf('L(x) = ');
 disp(L)

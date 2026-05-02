@@ -1,8 +1,9 @@
-% This script is a demo file that for the funtion:
+% This script takes in a function as input, f_s, and outputs a symbolic linear function
+% Demostrative funtion:
 %              f(x) = (1-x)^(1/3)
 % at x=0
 
-func_dir = fileparts(mfilename('fullpath')); 
+func_dir = fileparts(mfilename('fullpath'));
 addpath(fullfile(func_dir,'..','src'));   % code function, lin.m, call automation
 
 syms x

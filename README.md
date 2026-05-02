@@ -12,8 +12,6 @@ Which coincides with the tangent line to the graph of $f$ at the point $(a,f(a))
 
 **Core linearization function:**
 
-[lin.m](../linearization/src/lin.m)
-
 ``` matlab
 function L = lin(f_s, a)
   syms x
@@ -27,7 +25,7 @@ function L = lin(f_s, a)
 end
 ```
 
-**Linearization computation**: [lin001.m](../linearization/scripts/lin001.m)
+**Linearization computation**:
 
 ``` matlab
 syms x
@@ -47,7 +45,7 @@ $$L(x)=1-\frac{x}{3}$$
 
 **1.2 Graphs**
 
-Three figures generated from the program: [approx001.m](../linearization/scripts/approx001.m). 
+Three figures generated from the approximation computation program.
 
 **1.2.1 $f(x)=(1-x)^{1/3}$** , $L(x)=1-\frac{x}{3}$.
 
@@ -55,7 +53,7 @@ Three figures generated from the program: [approx001.m](../linearization/scripts
 <img src="linearization/plots/figure1.jpg" width="350">
 </div>
 
-_Figure 1: Wide view plot of linearization at tangent point $(0,1)$; it includes the subsequent numerical approximations (source: Author, 2026)_
+Figure 1: Wide view plot of linearization at tangent point $(0,1)$; it includes the subsequent numerical approximations (source: Author, 2026)
 
 **1.2.2 Approximation of: $^3\sqrt{0.95}$**
 
@@ -64,7 +62,7 @@ _Figure 1: Wide view plot of linearization at tangent point $(0,1)$; it includes
 </div>
 
 
-_Figure 2: Scale near $x=0.05$ demonstrating error, $1.41 \times 10^{-4}$, between $L(0.05)$ and $f(0.05)$ (source: Author, 2026)_
+Figure 2: Scale near $x=0.05$ demonstrating error, $1.41 \times 10^{-4}$, between $L(0.05)$ and $f(0.05)$ (source: Author, 2026)
 
 **1.2.3 Approximation of: $^3\sqrt{1.1}$**
 
@@ -72,7 +70,7 @@ _Figure 2: Scale near $x=0.05$ demonstrating error, $1.41 \times 10^{-4}$, betwe
 <img src="linearization/plots/figure3.jpg" width="350">
 </div>
 
-_Figure 3: Scale near $x=-0.1$ demonstrating error, $1.05 \times 10^{-3}$, between $L(-0.1)$ and $f(-0.1)$ (source: Author, 2026)_
+Figure 3: Scale near $x=-0.1$ demonstrating error, $1.05 \times 10^{-3}$, between $L(-0.1)$ and $f(-0.1)$ (source: Author, 2026)
 
 ---
 

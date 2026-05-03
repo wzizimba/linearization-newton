@@ -43,11 +43,11 @@ $$f'(0)= -\frac{1}{3}$$
 $$L(x)=1-\frac{x}{3}$$
 
 
-**1.2 Graphs**
+**1.1.1 Graphs**
 
 Three figures generated from the approximation computation program.
 
-**1.2.1 $f(x)=(1-x)^{1/3}$** , $L(x)=1-\frac{x}{3}$.
+**1.1.1.1 $f(x)=(1-x)^{1/3}$** , $L(x)=1-\frac{x}{3}$.
 
 <div align="center">
 <img src="linearization/plots/figure1.jpg" width="350">
@@ -55,7 +55,7 @@ Three figures generated from the approximation computation program.
 
 Figure 1: Wide view plot of linearization at tangent point $(0,1)$; it includes the subsequent numerical approximations (source: Author, 2026)
 
-**1.2.2 Approximation of: $^3\sqrt{0.95}$**
+**1.1.1.2 Approximation of: $^3\sqrt{0.95}$**
 
 <div align="center">
 <img src="linearization/plots/figure2.jpg" width="350">
@@ -64,7 +64,7 @@ Figure 1: Wide view plot of linearization at tangent point $(0,1)$; it includes 
 
 Figure 2: Scale near $x=0.05$ demonstrating error, $1.41 \times 10^{-4}$, between $L(0.05)$ and $f(0.05)$ (source: Author, 2026)
 
-**1.2.3 Approximation of: $^3\sqrt{1.1}$**
+**1.1.1.3 Approximation of: $^3\sqrt{1.1}$**
 
 <div align="center">
 <img src="linearization/plots/figure3.jpg" width="350">
@@ -73,5 +73,7 @@ Figure 2: Scale near $x=0.05$ demonstrating error, $1.41 \times 10^{-4}$, betwee
 Figure 3: Scale near $x=-0.1$ demonstrating error, $1.05 \times 10^{-3}$, between $L(-0.1)$ and $f(-0.1)$ (source: Author, 2026)
 
 ---
+
+**1.2 Application:** 
 
 

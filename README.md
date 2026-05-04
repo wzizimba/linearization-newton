@@ -27,6 +27,7 @@ end
 
 **Linearization computation**:
 
+01:
 ``` matlab
 syms x
 f_s=('%function input');
@@ -34,6 +35,11 @@ a='%tangent point input';
 
 L=lin(f_s,a);
 ```
+02:
+```matlab
+a='%tangent point input';
+L=lin('%function input', a);
+````
 ---
 
 **1.1 Application:** $f(x)=(1-x)^{1/3}$
@@ -74,6 +80,15 @@ Figure 3: Scale near $x=-0.1$ demonstrating error, $1.05 \times 10^{-3}$, betwee
 
 ---
 
-**1.2 Application:** 
+**1.2 Application:** $f(x)=(x-1)^2$, $g(x)=e^{-2x}$, $h(x)=1+$ ln $(1-2x)$
 
+The three fuctions share the same first-order Taylor expansion at $x = 0$, pass through the same point $(0, 1)$, and have the same $-2$ slope, therefore:
 
+$$L_f(x)=L_g(x)=L_h(x) = 1-2x$$
+
+**computed by:**
+```matlab
+Lf=lin('(x-1)^2' ,a);
+Lg=lin('exp(-2*x)', a);
+lh=lin('1+log(1-2*x)', a);
+```

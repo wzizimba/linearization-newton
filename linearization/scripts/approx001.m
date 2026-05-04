@@ -1,17 +1,15 @@
 % This script demonstartes the use of the lin.m funtion to approximate the values of:
 %        (0.95)^(1/3) and (1.1)^(1/3)
+% The approximations are compared to the exact values
 
 func_dir = fileparts(mfilename('fullpath'));
 addpath(fullfile(func_dir,'..','src'));   % code function, lin.m, call automation
 
-syms x
-
-f_s='(1-x)^(1/3)';
 a=0;
 
-L=lin(f_s,a);
+L=lin('(1-x)^(1/3)',a);
 
-%                                 Approximations
+%                                 Approximations and Exact Numerical values
 
 %  (0.95)^(1/3) = (1-0.05)^(1/3); x=0.05
 x1=0.05;
@@ -83,4 +81,3 @@ lfn=@(t) 1-t/3;
 %legend('Location','northeast');
 %grid on;
 %hold off;
-

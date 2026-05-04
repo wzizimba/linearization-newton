@@ -74,7 +74,7 @@ lfn=@(t) 1-t/3;
 %hold on;
 %plot(xp3,lfn(xp3),'--','Color',[.45 .45 .45],'LineWidth',1.8, 'DisplayName','L(x)');
 %plot(x2,appr2,'o','Color',[.55 .55 .55],'MarkerSize',10,'MarkerFaceColor',[.55 .55 .55],'DisplayName',sprintf('L(-0.1) = %.6f', appr2));
-%plot(x2,exct2,'o','Color',[.70 .70 .70],'MarkerSize',8,'MarkerFacecolor',[.70 .70 .70],'DisplayName',sprintf('L(-0.1) = %.6f', exct2));
+%plot(x2,exct2,'o','Color',[.70 .70 .70],'MarkerSize',8,'MarkerFacecolor',[.70 .70 .70],'DisplayName',sprintf('1.11^{1/3} = %.6f', exct2));
 %xlabel('x');
 %ylabel('y');
 %title('Scaled View of Approximation for: 1.1^{1/3} at x = -0.1');

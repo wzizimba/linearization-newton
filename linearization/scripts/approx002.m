@@ -37,6 +37,12 @@ hold on;
 plot(xp,gfn(xp), '-','Color',[.4 .5 .6],'LineWidth',1.7,'DisplayName','g(x) = exp(-2x)');
 plot(xp,hfn(xp), '-','Color',[.30 .30 .30],'LineWidth',1.7,'DisplayName','h(x) = 1 + lin(1-2x)');
 plot(xp,Lfn(xp), '--','Color',[1 0 0],'LineWidth',1.7,'DisplayName','L(x) = 1-2x');
+xlabel('x','FontSize',12);
+ylabel('y','FontSize',12);
+title('functions; f, g, h and the First-Orrder Taylor Expansion inearization: L(x)=1-2x','FontSize',13);
+legend('Location','northeast','FontSize',10);
+grid on;
+hold off;
 
 
 

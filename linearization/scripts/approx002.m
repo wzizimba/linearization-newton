@@ -31,24 +31,17 @@ Lfn=@(t) 1-2*t;
 figure(1); 
 clf;
 xp=linspace(-0.6,0.49,600);
-
-plot(xp,ffn(xp), '-','Color',[0 0 0],'LineWidth',1.7,'DisplayName','f(x) = (x-1)^2');
+plot(xp,ffn(xp), '-','Color',[0 0 0],'LineWidth',1.4,'DisplayName','f(x) = (x-1)^2');
 hold on;
-plot(xp,gfn(xp), '-','Color',[.4 .5 .6],'LineWidth',1.7,'DisplayName','g(x) = exp(-2x)');
-plot(xp,hfn(xp), '-','Color',[.30 .30 .30],'LineWidth',1.7,'DisplayName','h(x) = 1 + lin(1-2x)');
-plot(xp,Lfn(xp), '--','Color',[1 0 0],'LineWidth',1.7,'DisplayName','L(x) = 1-2x');
+plot(xp,gfn(xp), '-','Color',[.4 .4 .4],'LineWidth',1.4,'DisplayName','g(x) = exp(-2x)');
+plot(xp,hfn(xp), '-','Color',[.6 .6 .6],'LineWidth',1.4,'DisplayName','h(x) = 1 + lin(1-2x)');
+plot(xp,Lfn(xp), '--','Color',[.2 .2 .2],'LineWidth',1.7,'DisplayName','L(x) = 1-2x');
 xlabel('x','FontSize',12);
 ylabel('y','FontSize',12);
-title('functions; f, g, h and the First-Orrder Taylor Expansion inearization: L(x)=1-2x','FontSize',13);
+title('Functions; f, g, h and the First-Order Taylor Expansion inearization: L(x)=1-2x','FontSize',13);
 legend('Location','northeast','FontSize',10);
 grid on;
 hold off;
-
-
-
-
-
-
 
 
 

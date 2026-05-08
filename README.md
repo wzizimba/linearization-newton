@@ -49,7 +49,7 @@ $$f'(0)= -\frac{1}{3}$$
 $$L(x)=1-\frac{x}{3}$$
 
 
-**1.1.1 Graphs**
+**1.1.1 Results**
 
 Three figures generated from the approximation computation program.
 
@@ -92,3 +92,13 @@ Lf=lin('(x-1)^2' ,a);
 Lg=lin('exp(-2*x)', a);
 lh=lin('1+log(1-2*x)', a);
 ```
+**1.2.1 Results**
+
+<div align="center">
+<img src="linearization/plots/figure4.jpg" width="350">
+</div>
+
+Figure 4: Common Linearization Plot of $f(x)$, $g(x)$ and $h(x)$ (source: Author, 2026)
+
+---
+## 2. Newton's Method

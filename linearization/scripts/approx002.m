@@ -6,6 +6,7 @@
 func_dir = fileparts(mfilename('fullpath'));func_dir = fileparts(mfilename('fullpath'));
 addpath(fullfile(func_dir,'..','src'));   % code function, lin.m, call automation
 
+% Computation of Linearizations
 a = 0;
 
 Lf=lin('(x-1)^2', a);
@@ -19,6 +20,7 @@ disp(Lg);
 fprintf('h(x) -  Lh(x) = ');
 disp(Lh);
 
+% function handles
 ffn=@(t) (t-1).^2;
 gfn=@(t) exp(-2*t);
 hfn=@(t) 1+log(1-2*t);
